@@ -12,6 +12,7 @@ body{
 	background-color: white;
 	overflow: hidden;
 	width: 850px;
+	font-family:monospace;
 }
 
 .main-nav{
@@ -20,6 +21,7 @@ body{
 	background-size:cover;
 	background-position:center -60px;
 	padding: 100px 20px 0px 20px;
+	font-family:monospace;
 }
 
 .main-nav a{
@@ -33,37 +35,49 @@ body{
 	position:relative;
 	top:10px;
 	transition: top 300ms ease;
+	font-family:monospace;
 }
 
 .main-nav a:hover{
 	top:5px;
+	text-decoration:none;
 }
 
 .page-content{
 	padding: 20px;
+	font-family:monospace;
 }
 
 h1{
 	background-color: #b68052;
-	margin: 0px;
+	margin: 0px -20px 0px -20px;
 	padding: 10px 20px;
 	color: aliceblue;
+	font-family:monospace;
 }
 
 h2{
   font-family:monospace;
 }
 
-.top-nav ul{
-	list-style-type:none;
+.top-nav a{
+	text-decoration:none;
+	font-family:monospace;
 }
 
-.top-nav ul li{
+.top-nav ul{
+	list-style-type:none;
+	text-decoration:none;
+}
+
+.top-nav ul {
 	transition: all 300ms ease;
-	left:0px;
+	left:px;
 	position:relative;
+	font-family:monospace;
 }
 
 .top-nav ul li:hover{
 	left: 4px;
+	font-family:monospace;
 }
