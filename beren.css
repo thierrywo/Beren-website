@@ -2,6 +2,7 @@ body{
 	background-color: #f3f3f3;
 	padding:0;
 	margin:0;
+	font-family:monospace
 }
 
 .page {
@@ -44,13 +45,13 @@ body{
 
 h1{
 	background-color: #b68052;
-	margin: 20px;
+	margin: 0px;
 	padding: 10px 20px;
 	color: aliceblue;
 }
 
 h2{
-  font-family:Georgia;
+  font-family:monospace;
 }
 
 .top-nav ul{
