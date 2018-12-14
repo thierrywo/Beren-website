@@ -81,3 +81,14 @@ h2{
 	left: 4px;
 	font-family:monospace;
 }
+
+video {
+	margin-left:-20;
+	margin-bottom:-20;
+	margin-top:20;
+}
+
+img {
+	width:320;
+	margin-left:245;
+}
